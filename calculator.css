@@ -1,0 +1,33 @@
+* {
+    border: solid black;
+}
+
+.gameContainer {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    justify-self: center;
+}
+
+.displayBar {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.numberContainer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px   
+}
+
+button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;  
+}
+
+#add, #subtract, #multiply, #divide, #equals {
+    border-radius: 20%;
+}
