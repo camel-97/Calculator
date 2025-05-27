@@ -17,3 +17,6 @@ const divide = function(array)  {
 const operate = function(){
     
 }
+
+const output = 600;
+document.getElementById('output').textContent = output;
